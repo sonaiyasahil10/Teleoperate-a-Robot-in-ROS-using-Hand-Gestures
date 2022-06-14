@@ -1,22 +1,22 @@
 # Teleoperate-a-Robot-in-ROS-using-Hand-Gestures
 
-P.S: Have reffered to Lentin Joseph Sir's "ROS ROBOTICS PROJECT" book for this project
+P.S: Have reffered to Lentin Joseph Sir's "ROS ROBOTICS PROJECT" book for this project.
 
-Aim: To teleoperate a custom bot (Guido) using hand gestures
+**Pre-requisite: Have ROS and Rosserial set up on your PC/Laptop.**
 
-Pre-requisite: Have ROS and Rosserial set up on your PC/Laptop
-
-Hardware used: Arduino Mega
+## Hardware used: 
+Arduino Mega
                IMU MPU-6050 (for MPU 9 series you can refer to the book directly)
                Jumper Cables
       
-Connections:
+## Connections:
 
 install this mpu6050 library
 
-Arduino code:
+## Arduino code:
 
-Plug your Arduino and run the following commands:
+### Plug your Arduino and run the following commands:
+
 * To view imu_frame
 1) $ roscore
 2) $ rosrun rosserial_python serial_node.py /dev/ttyACM0 (the port where Arduino is connected)
@@ -28,6 +28,6 @@ Plug your Arduino and run the following commands:
 $ rosrun gesture_teleop triaimu_controller_ypr.py 
 $ roslaunch guido_sim_description gazebo.launch 
 
-Working:
+## Working:
 
-Final Product
+## Final Product
