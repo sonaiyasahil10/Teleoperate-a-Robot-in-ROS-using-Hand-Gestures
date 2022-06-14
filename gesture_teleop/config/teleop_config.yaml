@@ -1,0 +1,6 @@
+imu_topic: "/imu_data"
+low_speed: -4
+high_speed: 4
+low_turn: -2
+high_turn: 2
+step_size: 0.02

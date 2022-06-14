@@ -1,0 +1,5 @@
+roscore
+rosrun rosserial_python serial_node.py /dev/ttyACM0
+roslaunch guido_sim_description gazebo.launch
+
+rostopic echo /imu_data
