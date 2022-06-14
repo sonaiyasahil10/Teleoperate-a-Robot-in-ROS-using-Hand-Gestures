@@ -7,10 +7,12 @@ Aim: To teleoperate a custom bot (Guido) using hand gestures
 Pre-requisite: Have ROS and Rosserial set up on your PC/Laptop
 
 Hardware used: Arduino Mega
-               IMU MPU-6050
+               IMU MPU-6050 (for MPU 9 series you can refer to the book directly)
                Jumper Cables
       
 Connections:
+
+install this mpu6050 library
 
 Arduino code:
 
