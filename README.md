@@ -1,6 +1,6 @@
 # Teleoperate-a-Robot-in-ROS-using-Hand-Gestures
 
-P.S: Have reffered to Lentin Joseph Sir's ***"ROS ROBOTICS PROJECT"*** book for this project.
+P.S: I have reffered to Lentin Joseph Sir's ***"ROS ROBOTICS PROJECT"*** book for this project.
 
 ## Pre-requisite:
 1) Have ROS and Rosserial set up on your PC/Laptop.
