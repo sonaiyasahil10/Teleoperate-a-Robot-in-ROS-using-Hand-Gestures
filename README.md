@@ -36,7 +36,7 @@ Arduino code (***mpu6050_ros_ypr.ino***) in the script folder computes the orien
 These orientation values are recieved by PC as ROS topics (/tf, /imu_data,etc) and are converted into twist messages using a ROS node (***imu_controller_ypr.py***).<br/>
 These twist messages are then published to  "/cmd_vel"  topic to operate the bot in Gazebo.
 
-## Hand movement vs Robot motion:
+### Hand movement vs Robot motion:
 <p align = "center"> <img src="https://github.com/sonaiyasahil10/Teleoperate-a-Robot-in-ROS-using-Hand-Gestures/blob/main/images/Hand_orientation.jpg"  width="650" height="500" > </p>
 
 <p align = "center"> Where the Roll about X Axis is responsible for Left and Right turn motion and <br/>
