@@ -30,7 +30,7 @@ $ rosrun rviz rviz -f base_link (Add tf topic in rviz window)
 
 ### To control a bot in gazebo 
 - $ rosrun gesture_teleop imu_controller_ypr.py <br/>
-(Before controlling it in Gazebo, check the yaw, pitch and roll values on terminal and then accordingly use those in the ***imu_controller_ypr.py***)
+(Before controlling the bot in Gazebo, check the yaw, pitch and roll values on terminal and then accordingly use those in the ***imu_controller_ypr.py*** code file)
 - $ roslaunch guido_sim_description gazebo.launch (or any your custom made bot) 
 
 ## How code works ? :
