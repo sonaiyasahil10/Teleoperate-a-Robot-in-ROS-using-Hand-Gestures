@@ -29,6 +29,7 @@ After coonections done properly<br/>
 $ rosrun rviz rviz -f base_link (Add tf topic in rviz window) 
 
 ### To control a bot in gazebo 
+$ rosrun gesture_teleop imu_controller_ypr.py
 $ roslaunch guido_sim_description gazebo.launch (or any your custom made bot) 
 
 ## How code works ? :
